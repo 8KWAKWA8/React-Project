@@ -1,0 +1,46 @@
+.create{
+  width: 70vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  gap: 2rem;
+  padding: 2rem;
+  .create-instructions {
+    box-sizing: border-box;
+    background: linear-gradient(90deg, rgba(255,221,245,1) 0%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 55%, rgba(214,255,249,1) 100%);
+    width: 50%;
+    height: 5%;
+    border: 3px solid black;
+    text-align: center;
+    padding: 0.5rem;
+  }
+  .input-title{
+    width: 60%;
+    height: 5%;
+    border: 2px solid black;
+  }
+  .input-description{
+    width: 60%;
+    height: 30%;
+    border: 2px solid black;
+  }
+}
+
+.image-display{
+  background: linear-gradient(90deg, rgba(255,221,245,1) 0%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 55%, rgba(214,255,249,1) 100%);
+  border: 3px solid black;
+  height: 22vh;
+  box-sizing: border-box;
+  padding: 0.4rem;
+}
+
+.create-button {
+  color: black;
+  width: 10vw;
+  height: 5vh;
+  background: linear-gradient(90deg, rgba(255,221,245,1) 0%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 55%, rgba(214,255,249,1) 100%);
+  cursor: pointer
+}

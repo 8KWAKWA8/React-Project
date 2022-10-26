@@ -1,0 +1,105 @@
+.Home {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  .search {
+    width: 45vw;
+    height: 5vh;
+    padding: 1rem;
+    .search-bar{
+      width: 30vw;
+      height: 3vh;
+    }
+    .search-button{
+      width: 5vw;
+      height: 3.7vh;
+    }
+  }
+  .learning-block{
+    width: 70vw;
+    height: 80vh;
+    border: black 3px solid;
+    background: linear-gradient(90deg, rgba(255,221,245,1) 0%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 55%, rgba(214,255,249,1) 100%);
+    padding: 1rem;
+    overflow: auto;
+      .costumer-box {
+        width: 95%;
+        height: 29%;
+        border: black 2px solid;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0.5rem auto;
+        background: linear-gradient(90deg, rgba(255,221,245,1) 0%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 55%, rgba(214,255,249,1) 100%);
+        .box-info{
+          width: 97%;
+          height: 80%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0.5rem;
+          .box-photo{
+            width: 20%;
+            height: 8rem;
+            border: black 1px solid;
+          }
+          .learning-info{
+            width: 75%;
+            height: 8rem;
+            background-color: whitesmoke;
+            border: black 1px solid;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+            .box-title{
+              padding: 0.5rem;
+              border: black 1px solid;
+              width: 50%;
+              text-align: center;
+              background: linear-gradient(90deg, rgba(255,221,245,1) 0%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 55%, rgba(214,255,249,1) 100%);
+            }
+            .box-description{
+              height: 40%;
+              padding: 0.5rem;
+              border: black 1px solid;
+              width: 90%;
+              text-align: center;
+              background: linear-gradient(90deg, rgba(255,221,245,1) 0%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 55%, rgba(214,255,249,1) 100%);
+            }
+          }
+        }
+        .box-rating{
+          width: 90%;
+          height: 3%;
+          display: flex;
+          align-items: center;
+          gap: 22rem;
+          padding-right: 1rem;
+          .star-rating{
+            width: 8rem;
+            height: 1rem;
+            border: black 1px solid;
+            background-color: whitesmoke;
+            padding: 0.1rem 0.5rem;
+            font-size: 1.2rem;
+          }
+        }
+        .learn-more-button{
+          font-size: 1rem;
+          width: 10%;
+          border: black 1px solid;
+          padding: 0 0.5rem;
+        }
+        .mark-as-interested{
+          color: transparent;
+        }
+      }
+  }
+}
+
+

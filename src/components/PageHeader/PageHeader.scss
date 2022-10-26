@@ -1,0 +1,11 @@
+.PageHeader {
+  background: linear-gradient(180deg, rgba(237,8,171,0.998254599691439) 0%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 55%, rgba(0,255,217,1) 100%);
+  width: 11vw;
+  height: 94.5vh;
+  padding: 1.5em;
+  box-shadow: 0 0 0.25rem 0 black;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: flex-start;
+}
