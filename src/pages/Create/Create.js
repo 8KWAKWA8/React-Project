@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './Create.scss';
 import {NavLink} from "react-router-dom";
 
-
 export function Create () {
     return (
         <div className="create">
@@ -16,7 +15,6 @@ export function Create () {
         </div>
     )
 }
-
 const DisplayImage = () => {
     const [selectedImage, setSelectedImage] = useState(null);
     document.addEventListener("DOMContentLoaded", ()=>{
